@@ -88,9 +88,9 @@ public class MenuDriven {
             System.out.println("Division by zero is not possible");
             return;
         } else if (firstNumber > secondNumber) {
-            System.out.println("The Result of " + firstNumber + " and " + secondNumber + " is : " + (firstNumber / secondNumber));
+            System.out.println("The Result of " + firstNumber + " and " + secondNumber + " is : " + ((double)firstNumber / secondNumber));
         } else {
-            System.out.println("The Result of " + firstNumber + " and " + secondNumber + " is : " + (secondNumber / firstNumber));
+            System.out.println("The Result of " + firstNumber + " and " + secondNumber + " is : " + ((double)secondNumber / firstNumber));
         }
     }
 }
